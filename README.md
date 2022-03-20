@@ -40,4 +40,4 @@ func main() {
 ```
 
 
-[playground]: (https://goplay.tools/snippet/KnfD5kUGTzA)
+[playground]: https://goplay.tools/snippet/KnfD5kUGTzA
