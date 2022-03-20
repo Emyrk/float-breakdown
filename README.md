@@ -20,7 +20,7 @@ Throw this into google to get your number.
 
 # Go Playground
 
-You don't need to clone this library to give it a go. You can use a go [playground online](playground). Just import `"github.com/Emyrk/float-breakdown/breakdown"`
+You don't need to clone this library to give it a go. You can use a go [playground online][playground]. Just import `"github.com/Emyrk/float-breakdown/breakdown"`
 
 ```go
 package main
