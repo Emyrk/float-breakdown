@@ -34,10 +34,10 @@ import (
 func main() {
 	var value float32 = 0.15625
 	fmt.Printf("Value to breakdown: %f\n", value)
-	b := breakdown.Float(value)
+	b := breakdown.Float32(value)
 	fmt.Println(b)
 }
 ```
 
 
-[playground]: (https://goplay.tools/snippet/Wyqkx_QiLQ8)
+[playground]: (https://goplay.tools/snippet/KnfD5kUGTzA)
