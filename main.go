@@ -26,7 +26,7 @@ func main() {
 	_, _ = fmt.Fprintf(os.Stdout, "Value to breakdown: ")
 	_, _ = color.New(color.FgGreen).Fprintf(os.Stdout, "%f\n", f)
 
-	b := breakdown.BreakdownFloat(float32(f))
+	b := breakdown.Float32(float32(f))
 	_, _ = fmt.Fprintln(os.Stdout, b.String())
 
 }

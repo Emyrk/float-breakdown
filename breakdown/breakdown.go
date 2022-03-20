@@ -36,9 +36,9 @@ func (b Breakdown) String() string {
 	return s.String()
 }
 
-// BreakdownFloat breaks down the components of the IEEE 754 float32.
+// Float32 breaks down the components of the IEEE 754 float32.
 // https://en.wikipedia.org/wiki/IEEE_754
-func BreakdownFloat(f float32) Breakdown {
+func Float32(f float32) Breakdown {
 	bits := math.Float32bits(f)
 	// 1 Sign
 	// 8 Exponent
