@@ -17,3 +17,27 @@ Value to breakdown: 0.156250
 Throw this into google to get your number.
 (-1)^0 * 1.25 * 2^(-3)
 ```
+
+# Go Playground
+
+You don't need to clone this library to give it a go. You can use a go [playground online](playground). Just import `"github.com/Emyrk/float-breakdown/breakdown"`
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/Emyrk/float-breakdown/breakdown"
+)
+
+func main() {
+	var value float32 = 0.15625
+	fmt.Printf("Value to breakdown: %f\n", value)
+	b := breakdown.Float(value)
+	fmt.Println(b)
+}
+```
+
+
+[playground]: (https://goplay.tools/snippet/Wyqkx_QiLQ8)
